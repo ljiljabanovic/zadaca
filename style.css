@@ -1,0 +1,45 @@
+div {
+    position: relative;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background: #74a6f7;
+    animation: animacija linear 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes animacija {
+    0% {
+        background: #74a6f7;
+        top: 0;
+        left: 0;
+    }
+    
+    25% {
+        background: #74f78a;
+        top:0;
+        left: 500px;
+    }
+    
+    50% {
+        background: #f7f774;
+        left: 500px;
+        top: 500px;
+    }
+    
+    75% {
+        background: #f77474;
+        left: 0;
+        top: 500px;
+    }
+    100% {
+        background: #74a6f7;
+        left: 0;
+        top: 0;
+    }
+    
+}
+
